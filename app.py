@@ -22,6 +22,6 @@ h=st.number_input('Enter Humidity:')
 ph=st.number_input('Enter pH:')
 r=st.number_input('Enter Rainfall:')
 if std.button('Recommend Crop'):
-data=[[n,p,k,t,h,ph,r]]
-result=calssifier.predict(data)[0]
-st.success(result)
+    data=[[n,p,k,t,h,ph,r]]
+    result=calssifier.predict(data)[0]
+    st.success(result)
